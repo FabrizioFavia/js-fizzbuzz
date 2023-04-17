@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #222;
+}
+
+.boxContainer{
+    width: 1000px;
+    min-height: 80vh;
+    margin: 0 auto;
+}
+
+.box{
+    display: flex;
+    width: calc((100% / 5) - 10px);
+    height: 190px;
+    border: 1px solid yellow;
+    margin: 5px;
+    align-items: center;
+    justify-content: center;
+    
+}
