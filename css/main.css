@@ -18,25 +18,25 @@ body{
     display: flex;
     justify-content: space-between;
     margin-bottom: 10px;
-    width: 190px;
-    height: 190px;
-    border: 1px solid yellow;
+    width: 120px;
+    height: 120px;
+    border: 1px solid white;
     align-items: center;
     justify-content: center;
-    background-color: green;
+    background-color: lightseagreen;
 }
 
 .box:nth-child(3n) {
-    background-color: yellow;
+    background-color: lightpink;
     color: black;
 }
 
 .box:nth-child(5n) {
-    background-color: blue;
+    background-color: coral;
     color: white;
 }
 
 .box:nth-child(15n) {
-    background-color: red;
+    background-color: rgb(66, 122, 141);
     color: white;
 }
