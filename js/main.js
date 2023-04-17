@@ -12,6 +12,8 @@ for (let i = 1; i < 101; i++) {
     } else if (element % 5 == 0) {
         element = "Buzz";
     }
-    boxContainer.innerHTML += `<div class="box">${element}</div>"`;
     
-}
+    boxContainer.innerHTML +=`<div class="box">${element}</div>"`;
+  
+    }
+    

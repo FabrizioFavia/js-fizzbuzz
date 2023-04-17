@@ -23,14 +23,20 @@ body{
     border: 1px solid yellow;
     align-items: center;
     justify-content: center;
+    background-color: green;
 }
 
-.box:nth-child(odd) {
+.box:nth-child(3n) {
     background-color: yellow;
     color: black;
 }
 
-.box:nth-child(even) {
+.box:nth-child(5n) {
     background-color: blue;
+    color: white;
+}
+
+.box:nth-child(15n) {
+    background-color: red;
     color: white;
 }
