@@ -9,7 +9,7 @@ body{
 }
 
 .boxContainer{
-    width: 1000px;
+    width: 1200px;
     min-height: 80vh;
     margin: 0 auto;
 }
@@ -18,25 +18,25 @@ body{
     display: flex;
     justify-content: space-between;
     margin-bottom: 10px;
-    width: 120px;
-    height: 120px;
+    width: 105px;
+    height: 105px;
     border: 1px solid white;
     align-items: center;
     justify-content: center;
     background-color: lightseagreen;
 }
 
-.box:nth-child(3n) {
+.lightPink{
     background-color: lightpink;
     color: black;
 }
 
-.box:nth-child(5n) {
+.coral{
     background-color: coral;
     color: white;
 }
 
-.box:nth-child(15n) {
+.cadet{
     background-color: rgb(66, 122, 141);
     color: white;
 }
